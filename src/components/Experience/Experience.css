@@ -1,0 +1,40 @@
+.exp-main{
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.web-dev, .soft-dev, .tools {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.exp-h4 {
+    font-size: 15px;
+    width: 150px; 
+    text-align: left; 
+}
+
+.dev-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    flex-grow: 1; 
+}
+
+.dev-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev-icon .icon{
+    font-size: 70px;
+}
+

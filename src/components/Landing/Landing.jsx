@@ -57,7 +57,7 @@ export default function Landing() {
         </motion.h3>
         
         <div className="btn">
-          <a href="/">
+          <a href="#journey">
             <button>
               About Me <img src={icon} alt="" />
             </button>

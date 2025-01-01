@@ -8,13 +8,13 @@ export default function Header(){
             <img className="logo" src={logo} alt="Header Logo" />
             <nav>
                 <ul className="nav-links">
-                    <li><a href="/">My Journey</a></li>
-                    <li><a href="/">Experience</a></li>
-                    <li><a href="/">Passion Projects</a></li>
+                    <li><a href="#journey">My Journey</a></li>
+                    <li><a href="#exp">Experience</a></li>
+                    <li><a href="#pproject">Passion Projects</a></li>
                     <li><a href="/">My Work with Clients</a></li>
                 </ul>
             </nav>
-            <a href="https://www.google.ca/" className="cta"><button>Contact</button></a>
+            <a href="https://www.google.ca/" className="cta"><button className="header-btn">Contact</button></a>
         </header>
     )
 }

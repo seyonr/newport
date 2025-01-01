@@ -1,0 +1,20 @@
+[
+    {
+      "title": "Car Maintenance Tracker",
+      "link": "https://carmaintenancetracker.netlify.app/",
+      "github": "https://github.com/seyonr/Car-Maintenance.git",
+      "desc": "This car maintenance tracker, built with ReactJS, offers a seamless way for users to manage their vehicle upkeep. Users can create an account, log in, and add multiple cars to their profile. For each car, they can log maintenance activities and track essential details. The application intelligently provides reminders for upcoming maintenance tasks based on the mileage entered during previous services. Firebase powers the user authentication and data storage, ensuring secure and reliable access across devices."
+    },
+    {
+      "title": "Expense Tracker",
+      "link": "https://eloquent-mermaid-171bb5.netlify.app/",
+      "github": "https://github.com/seyonr/Expense-Tracker",
+      "desc": "Built on React JS, this project empowers users to meticulously monitor their expenses. Offering the functionality to categorize expenses and income types enables precise tracking over defined periods. Moreover, the inclusion of a donut chart provides a streamlined visual representation, facilitating effortless identification of the most significant income and expense categories."
+    },
+    {
+      "title": "Youtube to Mp3 Converter",
+      "github": "https://github.com/seyonr/YT-to-Mp3",
+      "desc": "This project employs a combination of the Youtube to MP3 API and Node.js to facilitate the seamless conversion of YouTube videos into MP3 audio files via their respective YouTube IDs. Upon conversion, users are provided with a downloadable link enabling the capability to download and modify the file name and leverage the resultant MP3 audio file for their desired purposes."
+    }
+  ]
+  

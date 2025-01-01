@@ -1,7 +1,8 @@
 :root {
   --light: #D9CDCB;
   --dark: #2D3047;
-  --button: #77BAB5;
+  /* --button: #77BAB5; */
+  --button: #86d4cf;
   --hover: #bcfffb;
 }
 

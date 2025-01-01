@@ -42,7 +42,7 @@ header{
     background-color: var(--dark);
 }
 
-button{
+.header-btn{
     color: var(--dark);
     margin-left: 20px;
     padding: 9px 25px;

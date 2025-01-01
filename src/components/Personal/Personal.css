@@ -1,0 +1,76 @@
+.per-main{
+    background-color: var(--dark);
+    height: 100vh;
+    padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.per-main h1{
+    background-color: transparent;
+    color: var(--light);
+}
+
+.per-holder{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.per-ele{
+    background-color: var(--button);
+    transition: all 0.3s ease-in-out;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.per-ele:hover{
+    background-color: var(--hover);
+}
+
+.per-ele h2, p{
+    background-color: transparent;
+}
+
+.top{
+    background-color: transparent;
+}
+
+.top p{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.bottom{
+    margin-top: 20px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bottom svg{
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.bottom a{
+    background-color: transparent;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.bottom a:hover{
+    scale: 1.3;
+}
+
+
+
