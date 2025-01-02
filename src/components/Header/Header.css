@@ -56,3 +56,32 @@ header{
 button:hover{
     background-color: var(--hover);
 }
+
+/* Responisve Sizing */
+@media (max-width: 1100px){
+    .logo{
+        width: 70px;
+    }
+
+    .nav-links li a{
+        font-size: 13px;
+    }
+
+    .header-btn{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 780px){
+    .logo{
+        width: 50px;
+    }
+
+    .header-btn{
+        margin-left: 10px;
+    }
+
+    .nav-links{
+        display: none;
+    }
+}
