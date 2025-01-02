@@ -38,3 +38,35 @@
     font-size: 70px;
 }
 
+/* Responsive */
+@media (max-width: 780px){
+    .dev-icon .icon{
+        font-size: 50px;
+    }
+
+    .dev-icon p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 650px){
+    .exp-main{
+        height: 100%;
+        padding: 40px 10%;
+    }
+
+    .web-dev,.soft-dev,.tools{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exp-h4{
+        text-align: center;
+    }
+
+    .dev-icon .icon{
+        font-size: 30px;
+    }
+}
+
+

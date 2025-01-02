@@ -67,3 +67,50 @@
 .resume button:hover{
     background-color: var(--hover);
 }
+
+/* Responsive */
+@media (max-width: 1100px){
+    .journey-main{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .journey-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .left{
+        order: 3;
+        justify-content: start;
+        margin-top: 20px;
+    }
+
+    .right{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 780px){
+    .left h1{
+        font-size: 30px;
+    }
+
+    .left h4{
+        font-size: 14px;
+    }
+
+    .resume button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px){
+    .journey-main{
+        height: 100%;
+        padding: 40px 10%;
+    }
+
+    .right img{
+        width: 300px;
+    }
+}
