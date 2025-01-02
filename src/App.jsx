@@ -6,6 +6,7 @@ import Experience from './components/Experience/Experience'
 import Personal from './components/personal/personal'
 import Client from './components/Client/Client'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Personal />
       <Client />
       <Contact />
+      <Footer />
     </>
   )
 }
