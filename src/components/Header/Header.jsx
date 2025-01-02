@@ -14,7 +14,7 @@ export default function Header(){
                     <li><a href="#client">My Work with Clients</a></li>
                 </ul>
             </nav>
-            <a href="https://www.google.ca/" className="cta"><button className="header-btn">Contact</button></a>
+            <a href="#contact" className="cta"><button className="header-btn">Contact</button></a>
         </header>
     )
 }

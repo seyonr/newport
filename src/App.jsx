@@ -5,6 +5,7 @@ import Journey from './components/Journey/Journey'
 import Experience from './components/Experience/Experience'
 import Personal from './components/personal/personal'
 import Client from './components/Client/Client'
+import Contact from './components/Contact/Contact'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Experience />
       <Personal />
       <Client />
+      <Contact />
     </>
   )
 }
