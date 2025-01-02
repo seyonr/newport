@@ -1,0 +1,70 @@
+.client-main{
+    padding: 0px 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.client-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.client-ele{
+    background-color: var(--button);
+    transition: all 0.3s ease-in-out;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.client-ele:hover{
+    background-color: var(--hover);
+}
+
+.client-ele h2, p{
+    background-color: transparent;
+}
+
+.top{
+    background-color: transparent;
+}
+
+.top p{
+    margin-top: 15px;
+    text-align: left;
+}
+
+.bottom{
+    margin-top: 20px;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bottom svg{
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.bottom a{
+    background-color: transparent;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.bottom a:hover{
+    scale: 1.3;
+}
+
+
+
+

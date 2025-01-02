@@ -11,7 +11,7 @@ export default function Header(){
                     <li><a href="#journey">My Journey</a></li>
                     <li><a href="#exp">Experience</a></li>
                     <li><a href="#pproject">Passion Projects</a></li>
-                    <li><a href="/">My Work with Clients</a></li>
+                    <li><a href="#client">My Work with Clients</a></li>
                 </ul>
             </nav>
             <a href="https://www.google.ca/" className="cta"><button className="header-btn">Contact</button></a>
