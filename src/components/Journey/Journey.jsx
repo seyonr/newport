@@ -1,5 +1,6 @@
 import "./Journey.css"
 import journeyImage from "../../img/journey.svg"
+import Resume from "../../documents/Resume.pdf"
 
 export default function Journey(){
     return(
@@ -14,7 +15,7 @@ export default function Journey(){
                     <h4>
                         I am passionate about building websites that not only entertain but also solve real-world problems. Whether it's creating intuitive user interfaces or designing interactive experiences, I enjoy the process of transforming ideas into functional, engaging digital platforms. Through my academic and personal projects, I strive to combine technical knowledge with creativity, aiming to contribute to the development of accessible, impactful, and enjoyable web experiences.
                     </h4>
-                    <div className="resume"><button>Resume</button></div>
+                    <div className="resume"><a href={Resume} target="blank"><button>Resume</button></a></div>
                 </div>
                 
                 <div className="right">
